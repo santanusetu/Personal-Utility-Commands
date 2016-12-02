@@ -5,3 +5,29 @@
 
 #### Killing the process on windows
 * Taskkill /PID 26356 /F
+
+
+
+#### Undo 'git add' before commit
+To remove the file from the current index('about to be commited' list) without changing naything else
+* git reset "filename"
+
+To un-stage all due changes. This comes handy when there are too many files to be listed.
+* git reset 
+
+
+#### Git Stashing
+To stash all the current changes and clear the status report
+* git stash
+
+To see what is in the stash
+* git stash list
+
+To pull changes from the upstream branch. 
+* git pull
+(Make sure it says fast-forward in the report. If it doesn't, you are probably doing an unintended merge)
+
+To apply stashed changes back to working copy and remove the changes from stash unless you have conflicts.
+* git stash pop
+(In the case of conflict, they will stay in stash so you can start over if needed)
+
