@@ -6,6 +6,9 @@
 #### Killing the process on windows
 * Taskkill /PID 26356 /F
 
+------------
+
+
 
 
 #### Undo 'git add' before commit
@@ -15,6 +18,9 @@ To remove the file from the current index('about to be commited' list) without c
 To un-stage all due changes. This comes handy when there are too many files to be listed.
 * git reset 
 
+
+
+------------
 
 #### Git Stashing
 To stash all the current changes and clear the status report
