@@ -37,3 +37,7 @@ To apply stashed changes back to working copy and remove the changes from stash 
 * git stash pop
 (In the case of conflict, they will stay in stash so you can start over if needed)
 
+------------
+
+#### Ignore code coverage for unit tests in EclEmm
+Preferences->Java->Code Coverage and set the "Only path entries matching" option to src/main/java
