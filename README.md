@@ -48,6 +48,15 @@ To Delete the most recent commit, destroying the work
 
 ------------
 
+#### Git branching
+Create issue branch using JIRA
+
+To change to the branch
+* git checkout -b iss53
+
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+------------
+
 #### Ignore code coverage for unit tests in EclEmm
 Preferences->Java->Code Coverage and set the "Only path entries matching" option to src/main/java
 
