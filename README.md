@@ -39,6 +39,15 @@ To apply stashed changes back to working copy and remove the changes from stash 
 
 ------------
 
+#### Git delete unpushed git commits
+To Delete the most recent commit, keeping the work
+* git reset --soft HEAD~1
+
+To Delete the most recent commit, destroying the work
+* git reset --hard HEAD~1
+
+------------
+
 #### Ignore code coverage for unit tests in EclEmm
 Preferences->Java->Code Coverage and set the "Only path entries matching" option to src/main/java
 
