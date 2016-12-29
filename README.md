@@ -48,12 +48,20 @@ To Delete the most recent commit, destroying the work
 
 ------------
 
-#### Git branching
+#### Git branching commands
 Create issue branch using JIRA
 
-To change to the branch
+To create a branch and changing to it
 * git checkout -b iss53
 
+To changing to it
+* git checkout iss53
+
+To delete a branch from remote
+* git push origin --delete [branchName]
+
+To delete a branch from local
+* git branch --delete [branchName]
 ------------
 
 # Unit Testing
