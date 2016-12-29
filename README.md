@@ -37,6 +37,9 @@ To apply stashed changes back to working copy and remove the changes from stash 
 * git stash pop
 (In the case of conflict, they will stay in stash so you can start over if needed)
 
+Remove all stashed files at once
+* git stash clear
+
 ------------
 
 #### Git delete unpushed git commits
