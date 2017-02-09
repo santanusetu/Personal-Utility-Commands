@@ -78,3 +78,8 @@ Preferences->Java->Code Coverage and set the "Only path entries matching" option
 
 ### Bootstrap cheatsheet
 https://hackerthemes.com/bootstrap-cheatsheet/
+
+
+--------------
+# Machine Learning CheatSheet  
+http://www.infoworld.com/article/3163130/artificial-intelligence/what-deep-learning-really-means.html
