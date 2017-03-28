@@ -83,3 +83,10 @@ https://hackerthemes.com/bootstrap-cheatsheet/
 --------------
 # Machine Learning CheatSheet  
 http://www.infoworld.com/article/3163130/artificial-intelligence/what-deep-learning-really-means.html
+
+
+--------------
+# Maven Commands  
+#### To skip test cases while maven clean install
+mvn install -DskipTests
+
