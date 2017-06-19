@@ -65,6 +65,9 @@ To delete a branch from remote
 
 To delete a branch from local
 * git branch --delete [branchName]
+
+To get all the branches from remote in local
+* git fetch --all
 ------------
 
 # Unit Testing
