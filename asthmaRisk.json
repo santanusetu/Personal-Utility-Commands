@@ -1,0 +1,13 @@
+{
+    "result": [
+        {
+            "Temperature": 21,
+            "Humidity": 35,
+            "AsthmaRisk": "0",
+            "id": 1,
+            "CO": 813,
+            "NO2": 31,
+            "O3": 43
+        }
+    ]
+}
